@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Tools</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f2f5;
+        color: #333;
+    }
+    header {
+        background-color: #4CAF50;
+        color: #fff;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    header h1 {
+        margin: 0 0 10px;
+        font-size: 2.2rem;
+    }
+    header p {
+        margin: 0;
+        font-size: 1rem;
+        opacity: 0.9;
+    }
+    main {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+    .tool-card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .tool-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .tool-card h2 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+    }
+    .tool-card p {
+        font-size: 0.95rem;
+        color: #555;
+        margin: 0 0 15px;
+    }
+    .tool-card a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #4CAF50;
+        padding: 10px 15px;
+        border-radius: 6px;
+        display: inline-block;
+        transition: background-color 0.2s;
+    }
+    .tool-card a:hover {
+        background-color: #45a049;
+    }
+    footer {
+        text-align: center;
+        margin: 50px 0 20px;
+        color: #777;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>My Tools</h1>
+    <p>Quick access to all my favorite tools</p>
+</header>
+
+<main>
+    <div class="tool-card">
+        <h2>Tool 1</h2>
+        <p>This is a short description of Tool 1. It helps you do amazing things quickly.</p>
+        <a href="https://example.com/tool1" target="_blank">Open</a>
+    </div>
+    <div class="tool-card">
+        <h2>Tool 2</h2>
+        <p>Tool 2 is useful for managing tasks and improving productivity efficiently.</p>
+        <a href="https://example.com/tool2" target="_blank">Open</a>
+    </div>
+    <div class="tool-card">
+        <h2>Tool 3</h2>
+        <p>A powerful tool for creating and organizing content easily and fast.</p>
+        <a href="https://example.com/tool3" target="_blank">Open</a>
+    </div>
+    <div class="tool-card">
+        <h2>Tool 4</h2>
+        <p>Tool 4 helps you track your projects and collaborate with your team.</p>
+        <a href="https://example.com/tool4" target="_blank">Open</a>
+    </div>
+    <!-- Add more tools here -->
+</main>
+
+<footer>
+    &copy; 2025 My Tools Page
+</footer>
+
+</body>
+</html>
