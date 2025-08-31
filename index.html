@@ -27,14 +27,15 @@
         font-size: 1rem;
         opacity: 0.9;
     }
-    main {
-    max-width: 1000px;
+main {
+    max-width: 100%;
     margin: 40px auto;
     padding: 0 20px;
     display: flex;
     align-items: start;
     flex-wrap: wrap;
     gap: 20px !important;
+    justify-content: center;
 }
     .tool-card {
         background-color: #fff;
@@ -43,6 +44,7 @@
         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         text-align: center;
         transition: transform 0.2s, box-shadow 0.2s;
+        width: 25% !important;
     }
     .tool-card:hover {
         transform: translateY(-5px);
